@@ -1,38 +1,55 @@
-# Storytelling using Data Visualization — One-Stop Streamlit Teaching App v9
+# Storytelling using Data Visualization — Instructor-Led Streamlit Teaching App
 
-A classroom-ready, instructor-led Streamlit application for the PGDM-BDA course **Storytelling using Data Visualization** at Goa Institute of Management.
+A classroom-ready, one-stop Streamlit application for the PGDM-BDA course **Storytelling using Data Visualization** at Goa Institute of Management.
 
-The app is designed as a **single teaching environment** for the course: explanations, diagrams, flowcharts, interactive graphs, quizzes, activities, business cases, model solutions, visual redesign exercises, rubrics, exam preparation, and final workshop support are all built into the application.
+This project is designed for live teaching, guided practice, classroom discussion, case analysis, visual critique, formative assessment, and final workshop delivery. The app is intended to replace the need for separate PPT decks, handouts, or external teaching notes during regular class delivery.
 
-> **Teaching goal:** The instructor should be able to conduct the complete course without depending on a separate PPT, handout, or external teaching source.
+> **Core idea:** students should not merely create attractive charts; they should learn how to convert data into clear, ethical, persuasive, and decision-oriented visual stories for managerial audiences.
 
 ---
 
-## Current Version: v9
+## Current Version
 
-### Key updates in v9
+**v9 — Instructor-only teaching version**
+
+### v9 updates
 
 - Removed Student Mode completely.
-- The app now runs in **Instructor-only mode**.
-- Replaced the earlier live-teaching prompt wording with **Theoratical Concepts** across the instructor interface.
+- App now runs in instructor-only mode.
+- Replaced the previous live-teaching prompt label with **Theoratical Concepts** across the visible interface.
 - Retained projector-friendly mode for classroom delivery.
-- Retained all full teaching supports: examples, graphs, flowcharts, diagrams, model answers, right/wrong interpretation, misinterpretation vs clarification, and downloadable notes.
+- Retained complete teaching support: examples, diagrams, charts, flowcharts, activities, quizzes, business cases, model answers, right/wrong interpretations, and misinterpretation-versus-clarification notes.
 
 ---
 
-## Handbook
+## Instructor Handbook
 
 A complete instructor handbook is included in this repository:
 
 - [Open the Instructor Handbook](HANDBOOK.md)
 
-The handbook explains how to use the app for session planning, live teaching, activities, quizzes, case discussions, final workshop delivery, and assessment.
+The handbook explains how to use the app session by session, how to conduct activities, how to use the case solutions, how to run the final workshop, and how to assess student outputs.
+
+---
+
+## Course Alignment
+
+The app supports the PGDM-BDA Term 1 course **Storytelling using Data Visualization**.
+
+### Course Learning Outcomes
+
+| CLO | Outcome |
+|---|---|
+| CLO1 | Explain the role of data visualization in presenting analytics-driven solutions to management problems. |
+| CLO2 | Select and design appropriate charts, dashboards, and visual layouts for different business contexts and stakeholder needs. |
+| CLO3 | Construct coherent and decision-oriented narratives from data using visualization tools and storytelling frameworks. |
+| CLO4 | Communicate business insights and strategic recommendations effectively through visual stories. |
 
 ---
 
 ## What the App Includes
 
-### Teaching and delivery
+### Teaching delivery
 
 - Instructor-only delivery environment
 - Projector-friendly mode
@@ -40,16 +57,16 @@ The handbook explains how to use the app for session planning, live teaching, ac
 - CLO-aligned session structure
 - 75-minute teaching flow for every session
 - Session-wise teaching notes
-- Theoratical Concepts section for instructor notes
-- Tell me the story feature for concept narration
-- Ready-to-use examples and explanations
+- **Theoratical Concepts** section for instructor notes
+- **Tell me the story** feature for narrative explanation
+- Ready-to-use examples and classroom explanations
 - Flowcharts, diagrams, and visual reasoning paths
 
-### Interactive learning features
+### Visual learning tools
 
 - Interactive visual demonstrations
-- Chart selection engine
-- Visualization master gallery
+- Chart Selection Engine
+- Visualization Master Gallery
 - Before–After Visual Makeover Studio
 - Misleading Chart Clinic
 - Dashboard Design Studio
@@ -61,11 +78,11 @@ The handbook explains how to use the app for session planning, live teaching, ac
 ### Practice and assessment
 
 - Large quiz bank with reveal-answer explanations
-- Activity bank with model solutions
+- Activity Bank with model solutions
 - Business Case Library with complete case solutions
 - Business Role-Play Mode
 - Rubrics and Exam Question Bank
-- Downloadable datasets, reflections, teaching notes, and solutions
+- Downloadable datasets, reflections, teaching notes, case solutions, and story drafts
 
 ---
 
@@ -95,7 +112,7 @@ The handbook explains how to use the app for session planning, live teaching, ac
 
 ## Installation
 
-Use a fresh virtual environment. Avoid running from the base Anaconda environment if it has PyArrow/protobuf conflicts.
+Use a fresh virtual environment. Avoid running the app directly from the base Anaconda environment if it has PyArrow/protobuf conflicts.
 
 ### macOS / Linux
 
@@ -131,34 +148,48 @@ The app uses only no-cost/open-source Python libraries:
 - pandas
 - numpy
 - plotly
-- openpyxl, only for Excel upload support
+- openpyxl, for Excel upload support
+
+No API keys, paid services, or external datasets are required.
 
 ---
 
-## Recommended Classroom Use
+## Recommended Classroom Workflow
 
-Use the app in this sequence for each class:
+Use the app in this sequence for each 75-minute class:
 
 1. Open **Instructor Delivery Planner** for the session flow.
 2. Move to **Session Learning Studio**.
-3. Use **Theoratical Concepts** for concept explanation.
+3. Use **Theoratical Concepts** for conceptual framing.
 4. Use **Tell me the story** for narrative explanation.
-5. Run the interactive demo and diagram.
-6. Conduct the mini-lab or activity.
-7. Reveal model solution and clarify misconceptions.
-8. Use quiz questions for formative checking.
-9. Download or save teaching notes and reflections when needed.
+5. Show the diagram or flowchart.
+6. Run the interactive demo.
+7. Conduct the mini-lab or activity.
+8. Reveal the model solution and discuss misinterpretations.
+9. Use quiz questions for formative checking.
+10. Close with reflection and action-oriented takeaway.
 
 ---
 
-## Notes
+## Recommended Repository Structure
 
-- No API calls.
-- No paid tools.
-- No external datasets required.
+```text
+storytelling_using_data_visualization/
+├── app.py
+├── requirements.txt
+├── README.md
+└── HANDBOOK.md
+```
+
+---
+
+## Notes for Instructors
+
+- The app is designed for live classroom projection.
 - Built-in synthetic datasets are generated inside the app.
-- Dataset downloads are available as CSV from the app.
-- The app is designed for classroom teaching, student practice, and assessment preparation.
+- Dataset downloads are available as CSV.
+- The app supports teaching, revision, case discussion, and assessment preparation.
+- Instructors can use the built-in rubrics and model answers to evaluate student outputs consistently.
 
 ---
 
