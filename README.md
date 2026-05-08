@@ -1,4 +1,4 @@
-# Storytelling using Data Visualization — One-Stop Streamlit Teaching App v7
+# Storytelling using Data Visualization — One-Stop Streamlit Teaching App
 
 This is a classroom-ready Streamlit app for the PGDM-BDA course **Storytelling using Data Visualization**.
 
