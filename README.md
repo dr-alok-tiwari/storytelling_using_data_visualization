@@ -19,6 +19,7 @@ This project is designed for live teaching, guided practice, classroom discussio
 - Replaced the previous live-teaching prompt label with **Theoratical Concepts** across the visible interface.
 - Retained projector-friendly mode for classroom delivery.
 - Retained complete teaching support: examples, diagrams, charts, flowcharts, activities, quizzes, business cases, model answers, right/wrong interpretations, and misinterpretation-versus-clarification notes.
+- Added a full **Instructor Handbook** in this repository.
 
 ---
 
